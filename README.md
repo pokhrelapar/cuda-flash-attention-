@@ -39,12 +39,11 @@ The goal is to reduce memory bottlenecks caused by standard attention implementa
 FlashAttention/
 ├── src/
 │   ├── fa_cpu/           # CPU attention implementation
-│   ├── fa_gpu/           # CUDA implementations
-│   ├── triton/           # Triton reference implementation
-│   ├── datasets/         # Generated Q, K, V inputs
+│   ├── fa_gpu/           # CUDA implementations   
 │   └── CMakeLists.txt
+| ├── triton/           # Triton reference implementation  
 └── README.md
-└── fa_benchmar.sh       # nsight compute
+└── fa_benchmark.sh       # nsight compute
 └── run_tests.sh         # test cases for random N and d values
 
 
