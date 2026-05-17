@@ -2,6 +2,8 @@
 
 CUDA-based implementation of FlashAttention with optimized shared memory tiling and online softmax for efficient transformer attention computation.
 
+Refer to the project report PDF for detailed implementation details, algorithm explanations, performance analysis, and experimental results.
+
 ## Overview
 
 This project compares three implementations of the attention mechanism:
@@ -62,7 +64,7 @@ bash run_test.sh
 
 ## NSight Compute
 
-Additionally, run the benchmark script to get the nsight compute file. 
+Additionally, run the benchmark script to get the nsight compute file.
 
 ---
 
